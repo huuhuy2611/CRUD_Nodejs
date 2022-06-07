@@ -100,7 +100,7 @@ app.get("/request", (req, res) => {
   request(options)
     .then(function (response) {
       res.send(response);
-      // Request was successful, use the response object at will
+      // Request was successful, use the response object at will]]]
     })
     .catch(function (err) {
       console.log("err", err);
